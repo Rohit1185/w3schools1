@@ -1,0 +1,1295 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+.w3home{
+    height: 50px;
+    width: 50px;
+}
+.menu{
+    display: flex;
+}
+.dropdown .dropbtn{
+    font-size: 13;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    color: rgb(68, 68, 68);
+    background-color: white;
+    padding: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.dropdown .dropbtn:hover{
+    background-color: #04AA6D;
+    border-radius: 0%;
+}
+.bootcamps{
+    margin-top: 15px;
+    margin-left: 500px;
+    width: 140;
+    height: 30;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: medium;
+    color: rgb(68, 68, 68);
+}
+.menu .bootcamps:hover{
+    background-color: rgb(241, 241, 241);
+    border-radius:50px ;
+}
+.gift{
+    width: 100;
+    height: 30;
+    margin-top: 15;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: medium;
+    color: rgb(68, 68, 68);
+}
+.menu .gift:hover{
+    background-color: rgb(241, 241, 241);
+    border-radius:50px;
+}
+.log{
+    display: flex;
+}
+.log{
+    color: aliceblue;
+    border-radius: 50px;
+    background-color: rgb(36, 123, 42);
+    width: 80;
+    height: 40;
+    margin-top: 10px;
+    cursor: pointer;
+    padding-left: 14;
+    padding-top: 12;
+    outline: none;
+    border: none;
+}
+.log1{
+    color: aliceblue;
+    border-radius: 50px;
+    background-color: rgb(152, 152, 152);
+    width: 80;
+    height: 40;
+    margin-top: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.log:hover{
+    background-color: rgb(122, 188, 122);
+}
+.log1:hover{
+    background-color: rgb(81, 149, 81);
+}
+.content{
+    background-color: #282A35!important;
+}
+.content{
+    height: 600px;
+}
+.parentlinks{
+    padding-top: 10px;
+    background-color: #282A35;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    margin-top:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(215, 215, 215);
+    height: auto;
+}
+.links:hover{
+    background-color: rgba(0, 0, 0, 0.319);
+}
+.info .header{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 120px;
+    font-weight: bolder;
+    font-size: 60px;
+    height: 20px;
+
+}
+.info .lower{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: pink;
+    margin-top: 70px;
+    font-weight: bolder;
+}
+.searchbar{
+    padding-top: 50px;
+}
+input{
+    width: 400;
+    margin-left: 500;
+    border-radius: 50px;
+    height: 50;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    outline: none;
+    border: none;
+}
+.search{
+    background-color: #04AA6D;
+    outline: none;
+    border: none;
+    height: 50.5;
+    width: 90;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: -10px;
+    cursor: pointer;
+    color: aliceblue;
+    font-weight: bolder;
+}
+input::placeholder{
+    color: grey;
+    font-weight: 700;
+    padding-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parentlink{
+    margin-top: 50px;
+    padding-bottom: 91px;
+}
+.childlink{
+    font-weight: bolder;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 600px;
+}
+.childlink:hover{
+    color: #04AA6D;
+}
+
+/* This is for html and buttons */
+.html{
+    display: block;
+    background-color: #D9EEE1;
+    height: 500;
+    padding-top: 70px;
+}
+.contenthtml p{
+    padding-top: 40px;
+    color: black;
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 380px;
+}
+.contenthtml h4{
+    padding-top: 20px;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font: size 15px;
+    margin-left: 350px;
+}
+.contenthtml button{
+    margin-left:400px;
+    display: block;
+    text-decoration: none;
+}
+.childinfo{
+    display: flex;
+}
+.html{
+    display: flex;
+}
+/*This is for Fot Buttons*/
+.link1{
+    color: white;
+    background-color: #04AA6D;
+    border-radius: 50px;
+    width: 200px;
+    height: 45px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: 8px 16px;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.link1:hover{
+    background-color: #008454;
+}
+.link2{
+    color: black;
+    background-color: #FFF4A3;
+    border-radius: 50px;
+    width: 200px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    height: 45px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin: 15px 15px;
+    cursor: pointer;
+}
+.link2:hover{
+    background-color: #fdef85;
+}
+.link3{
+    color: white;
+    background-color: #252525;
+    border-radius: 50px;
+    width: 200px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    height: 45px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin: 20px 20px;
+    cursor: pointer;
+}
+.link3:hover{
+    background-color: black;
+}
+.link4{
+    color: black;
+    background-color: #FFC0C7;
+    border-radius: 50px;
+    width: 200px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    height: 45px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin: 15px 15px;
+    cursor: pointer;
+}
+.link4:hover{
+    background-color: #dba6ac;
+}
+.editorhtml{
+    border-radius: 20px;
+    height: 200px;
+}
+.editorheading{
+    background: #E7E9EB;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-top: 0px;
+    margin-left: 120px;
+    padding: 30px 10px 20px 10px ;
+    height: 390px;
+    width: 390px;
+}
+.editorheading h1{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-stretch: extra-condensed;
+}
+.editor{
+    background-color: white;    
+    margin-top: 30px;
+    padding: 15px 10px 10px 10px;
+    height: 250px;
+    width: 360px;
+    border-left: 4px solid #04AA6D;
+    word-wrap: break-word;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6em;
+    font-size: small;
+}
+.editorbtn{
+    margin-top: 15px;
+    background-color: #04AA6D;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 45px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+/*This is for CSS Divison*/
+.js{
+    color: rgb(110,10,10);
+}
+.innertext{
+    color: red;
+    font-weight: 100;
+}
+.innertext2{
+    color: rgb(0, 0, 196);
+    font-weight: 100;
+}
+/* this is for java script section */
+#p{
+    margin-left: 320px!important;
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+}
+#h4{
+    color: white;
+}
+#link3{
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    width: 200px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 45px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin: px 20px!important ;
+    cursor: pointer;
+}
+#link3:hover{
+    background-color: rgb(217, 214, 214)
+}
+.lt{
+    color: blue;
+}
+/* this is for other Boxes */
+.main{
+    background-color: #282A35;
+}
+.course{
+    display: flex;
+}
+.php{
+    background-color: #FFC0C7;
+    padding: 48px;
+    margin: 50px;
+    text-align: center;
+    width: 550px;
+    border-radius: 10px;
+    height: 200px;
+}
+.php h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.php p{
+    color: rgb(43, 43, 43);
+    padding-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.php button{
+    background-color: #1e1f28;
+    color: white;
+    border-radius: 25px;
+    width: 200px;
+    font-size: 18px;
+    margin-top: 50px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.jquery{
+    background-color:#FFF4A3;
+    padding: 48px;
+    margin: 50px;
+    text-align: center;
+    width: 550px;
+    border-radius: 10px;
+    height: 200px;
+}
+.jquery h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.jquery p{
+    color: rgb(43, 43, 43);
+    padding-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.jquery button{
+    background-color: #1e1f28;
+    color: white;
+    border-radius: 25px;
+    width: 200px;
+    font-size: 18px;
+    margin-top: 50px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.java{
+    background-color:#F3ECEA;;
+    padding: 48px;
+    margin: 50px;
+    text-align: center;
+    width: 550px;
+    border-radius: 10px;
+    height: 200px;
+}
+.java h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.java p{
+    color: rgb(43, 43, 43);
+    padding-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.java button{
+    background-color: #1e1f28;
+    color: white;
+    border-radius: 25px;
+    width: 200px;
+    font-size: 18px;
+    margin-top: 50px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.cad{
+    background-color:#f1f1f1;
+    padding: 48px;
+    margin: 50px;
+    text-align: center;
+    width: 550px;
+    border-radius: 10px;
+    height: 200px;
+}
+.cad h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cad p{
+    color: rgb(43, 43, 43);
+    padding-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cad button{
+    background-color: #1e1f28;
+    color: white;
+    border-radius: 25px;
+    width: 200px;
+    font-size: 18px;
+    margin-top: 50px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;    
+}
+.w{
+    background-color:#96D4D4;
+    padding: 48px;
+    margin: 50px;
+    text-align: center;
+    width: 550px;
+    border-radius: 10px;
+    height: 200px;
+}
+.w h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.w p{
+    color: rgb(43, 43, 43);
+    padding-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.w button{
+    background-color: #1e1f28;
+    color: white;
+    border-radius: 25px;
+    width: 200px;
+    font-size: 18px;
+    margin-top: 50px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.BootStrap{
+    background-color:#E7E9EB;
+    padding: 48px;
+    margin: 50px;
+    text-align: center;
+    width: 550px;
+    border-radius: 10px;
+    height: 200px;
+}
+.BootStrap h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.BootStrap p{
+    color: rgb(43, 43, 43);
+    padding-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.BootStrap button{
+    background-color: #1e1f28;
+    color: white;
+    border-radius: 25px;
+    width: 200px;
+    font-size: 18px;
+    margin-top: 50px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.course1{
+    display: flex;
+}
+/*Child 1 Buttons*/
+.c{
+    width: 620px;
+    background-color: pink;
+    height: 150px;
+    border-radius: 10px;
+    margin: 55px;
+    padding: 50px;
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.childbtn{
+    margin: 50px;
+}
+.c1{
+    background-color: #FFC0C7;
+    padding: 45px;
+    margin: 45px;
+    text-align: center;
+    width: 550px;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900    ;
+}
+.course a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    
+}
+.c2{
+    background-color:#fdef85;
+    padding: 45px;
+    margin: 45px;
+    text-align: center;
+    width: 550px;
+    border-radius: 10px;
+    height: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+.sub{
+    display: flex;
+    margin: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sub a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.r{
+    background-color: #D9EEE1!important;
+    padding: 40px;
+    margin: 40px;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.kotlin{
+    background-color: #fff;
+    padding: 40px;
+    margin: 40px;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nodejs{
+    background-color: #96D4D4;
+    padding: 40px;
+    margin: 40px;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.react{
+    background-color: #FFC0C7;
+    padding: 40px;
+    margin: 40px;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.json{
+    background-color: #fdef85;
+    padding: 40px;
+    margin: 40px;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.vue{
+    background-color: #f1f1f1;
+    padding: 40px;
+    margin: 40px;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sql{
+    background-color: #D9EEE1;
+    padding: 40px;
+    margin: 40px;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.xml{
+    background-color: #96D4D4;
+    padding: 40px;
+    margin: 40px;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*This is for video content*/
+.video{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.video h3{
+    font-size: 40px;
+    font-weight:700;
+}
+.video p{
+    font-size: 20px;
+}
+.buttons{
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+.imgbtn{
+    margin-top: 50px;
+    padding-left: 60px;
+    padding-bottom: 50px;    
+}
+.fe {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #04AA6D;
+    border-radius: 5px;
+    margin-left: 120px;
+    width: 350px;
+    padding: 10px;
+    margin: 10px 10px;
+}
+.fe a{
+    text-decoration: none;
+    color: white;
+}
+.fe:hover{
+    background-color: #008454;
+}
+.be{
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fdef85;
+    border-radius: 5px;
+    margin-left: 120px;
+    width: 350px;
+    padding: 10px;
+    margin: 10px 10px;
+}
+.be a{
+    text-decoration: none;
+    color: black;
+}
+.be:hover{
+    background-color:#FFF4A3;
+}
+.space h3{
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.space p{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.space a{
+    margin-top: 10px;
+    font-weight: bold;
+    color: hotpink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.space a:hover{
+    color: #04AA6D;
+}
+#spacegif1{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.spacebtn{
+    margin-left: 590px;
+    width: 300px;
+    height: 50px;
+    background-color: #04AA6D;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.spacegif{
+    margin-top: 50px;
+    padding-left: 300px;
+}
+.learning{
+    background-color: #D9EEE1;
+}
+.info{
+    padding-top: 30px;
+    text-align: center;
+}
+.info h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.info p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.info img{
+    margin-top: 40px;
+}
+.infobtn{
+    width: 300px;
+    height: 50px;
+    background-color: #04AA6D;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-bottom: 60px;
+}
+.user{
+    background-color: #282A35;
+}
+.childuser{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h1{
+    color: white;
+    font-weight: bolder; 
+    font-size: 50px;
+    padding-top: 70px;
+}
+.h4{
+    padding-top: 25px;
+    color: pink;
+    font-size: 24px;
+}
+.p{
+    padding-top: 40px;
+    color: white;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p p{
+    padding: 15px;
+}
+.p a{
+    color: white;
+}
+.p a:hover{
+    color: #04AA6D;
+}
+.userbtn{
+    width: 300px;
+    height: 50px;
+    background-color: #04AA6D;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.color{
+    text-align: center;
+    background-color: #F3ECEA;
+}
+.color h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    padding-top: 70px;
+}
+.color h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.color img{
+    padding-top: 20px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+.color img:hover{
+    filter: blur(1px);
+}
+.game{
+    background-color: #96D4D4;
+    text-align: center;
+}
+.game h1{
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 100px;
+}
+.game h2{
+    margin-top: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+.game img{
+    cursor: pointer;
+}
+.gamebtn{
+    background-color: #282A35;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.gamebtn a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.gamebtn:hover{
+    background-color: #1e1f28;
+}
+.quiz{
+    text-align: center;
+    background-color:#282A35;
+}
+.quiz h1{
+    font-size: 50;
+    padding-top: 70px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.quiz h4{
+    color: white;
+    padding-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.childquiz{
+    display: flex;
+    margin-left: px;
+}
+.exersice{
+    background-color: #04AA6D;
+    width: 530px;
+    height: 70px;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 10px;
+}
+.exersice:hover{
+    background-color: #008454;
+}
+.quizs{
+    background-color: #fdef85;
+    width: 530px;
+    height: 70px;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 10px;
+    color: black;
+}
+.quizs:hover{
+    background-color: #FFF4A3;
+}
+.childquiz a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 40px;
+    font-size: 35px;
+}
+.web{
+    text-align: center;
+    background-color: #E7E9EB;
+}
+.web h1{
+    padding-top: 60px;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.web h3{
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.web img{
+    margin-top: 50px;
+    vertical-align: middle;
+    height: 360px;
+    border: 1px solid #E7E9EB;
+    margin-bottom: 50px;
+}
+.web button{
+    background-color: #282A35;
+    width: 600px;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.web button:hover{
+    background-color: black;
+}
+.start{
+    background-color: #282A35;
+    padding-left: 100px;
+}
+.start h1{
+    color: pink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    padding-top: 100px;
+}   
+.start h2{
+    color: pink;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 60px;
+    font-size: 40px;
+}
+.stratbtn{
+    width: 200px;
+    height: 70px;
+    background-color: #04AA6D;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;    
+}
+.section h1,p{
+    text-align: center;
+    padding: 10px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.section h1{
+    font-size: 55;
+    padding-top: 120px;
+}
+.section p{
+    padding-bottom: 50px;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.howto{
+    background-color: #282A35;
+    width: 400px;
+    height: 60px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-left: 540px;
+}
+.howto:hover{
+    background-color: #04AA6D;
+}
+.followlink{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.followlink h2{
+    padding-bottom: 15px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.followlink .fa{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    width: 15px;
+    font-size: 15px;
+}
+.followlink .fa:hover{
+    background-color: black;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+.sumit{
+    padding-bottom: 30px;
+}
+.rohit{
+    margin-left: 97px;
+    border-top: 1px solid rgb(236, 236, 236);
+    border-bottom: 1px solid rgb(236, 236, 236);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.rohit .linkbtn{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #282A35;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.rohit .linkbtn:hover{
+    background-color: #04AA6D;
+}
+.childfooter{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px 30px;
+}
+.footerlinks{
+    width: 1000px;
+    padding: 20px;
+    line-height: 110%;
+    text-align: center;
+    border-bottom: 1px solid rgb(236, 236, 236);
+  
+}
+.footerlinks a{
+    text-decoration: none;
+    color: rgb(21, 21, 21);
+    padding: 20px ;
+    font-size: 12px;
+}
+.footerlinks a:hover{
+    color: #04AA6D;
+    text-decoration: underline;
+}
+.forum{
+    margin-right: 50px;
+    float: right;
+    padding-bottom: 100px;
+}
+.forum a{
+    color: #5f5f5f;
+    text-decoration: none;
+}
+.forum a:hover{
+    color: #04AA6D;
+}
+.term{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 12px;
+    font-family:   Verdana,sans-serif;
+    color: #5f5f5f; 
+    font-weight: lighter;
+}
+.term a{
+    text-decoration: none;
+    color: #5f5f5f;
+}
+.term a:hover{
+    color: #04AA6D;
+    text-decoration: underline;
+}
+.img{
+    height: 70px;
+    text-align: center;
+    padding-bottom: 70px;
+}
